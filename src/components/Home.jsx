@@ -7,15 +7,7 @@ const Home = ({ account }) => {
   return (
     <div className="container">
       <div id="login-type-container">
-        <div className="wallet-div">
-        {/* <h4 style={{}}>
-          Wallet Address:
-          {account.substring(0, 4) +
-            "..." +
-            account.substring(account.length - 4, account.length)}
-        </h4> */}
-          </div>
-          <h4 className="wallet-addr-txt wallet-div " >
+          <h4 className="wallet-addr-txt" >
           Wallet Address:
           { " " + account.substring(0, 4) +
           "..." +
