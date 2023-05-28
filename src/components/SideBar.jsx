@@ -59,21 +59,21 @@ const SideBar = ({ contract, account, activeLink, isMenuOpen,closeMenu,openMenu 
         <div id="menu-item-container">
           <MenuItem
             iconName={"fa-solid fa-truck"}
-            title="Track Products."
+            title="Track Products"
             isActive={activeLink === "products"}
             url="/vendor/products"
             closeMenu={closeMenu}
           />
           <MenuItem
             iconName={"fa-solid fa-shirt"}
-            title="Add Product."
+            title="Add Product"
             isActive={activeLink === "addproduct"}
             url="/vendor/addproduct"
             closeMenu={closeMenu}
           />
           <MenuItem
             iconName={"fa-solid fa-user"}
-            title="Distributors."
+            title="Distributors"
             isActive={activeLink === "available-distributors"}
             url="/vendor/available-distributors"
             closeMenu={closeMenu}

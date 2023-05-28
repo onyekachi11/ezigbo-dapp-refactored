@@ -10,22 +10,13 @@ const Authenticate = ({ account }) => {
   return (
     <>
       <div className="cam">
-        <h4 style={{ color: "#000", position: "fixed", right: 8, top: 2 }}>
+        <h4 style={{ color: "#000"}} className="wallet-addr-txt">
           Wallet Address:{" "}
           {account.substring(0, 4) +
             "..." +
             account.substring(account.length - 4, account.length)}
         </h4>
-
-        {/* <h4 
-        style={{ color: "#000", position: "fixed", right: 8, top: 2 }}
-        >
-           Wallet Address:{" "}
-        </h4> */}
-        <br />
-        <h2
-        //  style={{ position: "absolute", top: 20, fontSize:'30px' }}
-         >
+        <h2>
           Hold QR Code Steady and Clear to Scan
         </h2>
         <div>

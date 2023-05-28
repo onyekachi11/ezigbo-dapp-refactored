@@ -13,7 +13,7 @@
   height: 4vh;
   color: white;
   letter-spacing: 1px;
-  font-size: 6px;
+  font-size: 10px;
   /* width: 260px; */
   padding: 10px;
   text-align: center;
@@ -24,8 +24,4 @@
 .secondary-txt{
   font-size: 17px;
   margin-bottom: 10px;
-}
-
-.mainbar-header{
-  /* border: 1px solid black; */
 }
