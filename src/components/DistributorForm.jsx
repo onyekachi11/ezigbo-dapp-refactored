@@ -107,10 +107,6 @@ const DistributorForm = ({ contract, account }) => {
             "..." +
             account.substring(account.length - 4, account.length)}
         </h4>
-
-        {/* <h4 style={{ color: "#000", position: "fixed", right: 8, top: 2 }} >
-          Wallet Address
-        </h4> */}
       </div>
 
       <div className="form-div">

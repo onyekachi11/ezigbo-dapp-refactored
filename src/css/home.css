@@ -36,7 +36,7 @@
   /* margin-top: 24px; */
   font-family: "Inter", sans-serif;
   text-align: center;
-  color: rgb(39,59,105) ;
+  color: rgb(39,59,105);
 }
 
 .options h3{
@@ -60,8 +60,7 @@
   justify-content: end;
   background-color: white !important;
   color: white;
-  border-radius: 5px;
-  
+  border-radius: 5px; 
 }
 
 @media (max-width: 800px) {

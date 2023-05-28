@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const MainBar = ({ pageTitle, children, account,isOpenMenu,closeMenu,openMenu }) => {
   return (
     <div id="box-container">
+      <div className="mainbar-header">
       <FontAwesomeIcon icon="fa-solid fa-bars" onClick={openMenu} className="open-icon"
        />
        <h4 className="wallet-addr-txt">
@@ -13,6 +14,7 @@ const MainBar = ({ pageTitle, children, account,isOpenMenu,closeMenu,openMenu })
           "..." +
           account.substring(account.length - 4, account.length)}
       </h4> 
+      </div>
       <div id="page-desc-container">
         <h1 id="page-title">{pageTitle}</h1>
       </div>

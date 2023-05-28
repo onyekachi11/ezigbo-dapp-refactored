@@ -1,25 +1,31 @@
 .main-container{
-    display: flex;
+  display: flex;
 }
 
 .wallet-addr-txt{
+  display: flex;
+  align-items: center;
   background-image: linear-gradient(
     -45deg,
     rgba(9, 28, 60, 1) 0%,
     rgba(67, 46, 103, 1) 100%
   );
+  height: 4vh;
   color: white;
-  letter-spacing: 2px;
-  font-size: 14px;
-  width: 260px;
+  letter-spacing: 1px;
+  font-size: 6px;
+  /* width: 260px; */
   padding: 10px;
   text-align: center;
   border-radius: 5px;
   float: right;
-  /* margin-bottom: 40px; */
 }
 
 .secondary-txt{
-  font-size: 25px;
+  font-size: 17px;
   margin-bottom: 10px;
+}
+
+.mainbar-header{
+  /* border: 1px solid black; */
 }

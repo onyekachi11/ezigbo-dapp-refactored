@@ -155,7 +155,7 @@ const App = () => {
           </Routes>
         </BrowserRouter>
       ) : (
-        <div>
+        <div className="landing-page-container">
           <header className="landing-page-header" >
             <h3>Ezigbo Dapp</h3>
             <div className="connectWalletContainer">
@@ -180,7 +180,7 @@ const App = () => {
             </h1>
 
             <div className="connectWalletContainer hero-btn">
-              {wallet === "Get Started" && (
+              {/* {wallet === "Get Started" && (
                 <button onClick={connectWallet} className="connectWalletBtn">
                   <img
                     src={
@@ -191,7 +191,7 @@ const App = () => {
                     />{" "}
                   {wallet}
                 </button>
-              )}
+              )} */}
             </div>
             </div>
             <div className="hero-img"> 

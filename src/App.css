@@ -18,6 +18,10 @@ img{
   width: 100%;
 }
 
+.landing-page-container{
+  border: 1px solid black;
+  width: 100vw;
+}
 
 .landing-page-header{
   /* border: 1px solid black; */
@@ -30,7 +34,7 @@ img{
 
 .landing-page-header h3{
   color: rgb(39,59,105) !important;
-  font-size: 25px;
+  font-size: 14px;
   font-weight: bolder;
 
 }
@@ -43,7 +47,7 @@ img{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 20px;
+  padding: 5px ;
   border-radius: 5px;
   border: none;
   background-image: linear-gradient(
@@ -52,8 +56,8 @@ img{
     rgba(67, 46, 103, 1) 100%
   );
   color: white;
-  letter-spacing: 2px;
-  font-size: 14px;
+  /* letter-spacing: 1.5px; */
+  font-size: 10px;
 }
 
 .hero-section{
@@ -62,24 +66,24 @@ img{
   align-items: center;
   justify-content: center; 
   text-align: center;
-  height: 90vh;
-  margin: 0 30px;
+  /* height: 90vh; */
+  /* margin: 0 30px; */
 }
 
 .hero-section h1{
-  font-size: 30px;
   background: linear-gradient(
     -45deg,
     rgba(9, 28, 60, 1) 0%,
     rgba(67, 46, 103, 1) 100%
   );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-          background-clip: text;
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+  background-clip: text;
+    
 }
 
 .hero-img{
-  width: 400px;
+  margin-bottom: 20px;
 }
 
 .hero-btn{
@@ -87,10 +91,14 @@ img{
 }
 
 .hero-text{
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 20px;
+}
+
+.hero-text h1{
+  font-size: 20px;
 }
 
 .services{
@@ -101,34 +109,55 @@ img{
   );
   color: white;
   text-align: center;
-  padding: 40px 50px;
-  border-radius: 200px 20px 0 0;
+  padding: 10px 20px;
+  /* border-radius: 200px 20px 0 0; */
 }
 
 .services-cards{
   margin-bottom: 40px;
-  font-size: 15px;
+  font-size: 11px;
 }
 
-
+.services h2{
+  font-size: 24px;
+}
 
 .services-cards h3{
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 15px;
 }
 
-@media screen and (max-width:600px) {
-  .services{
-    padding: 40px 50px;
-  }
-}
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:500px) {
   .hero-section h1{
-    font-size: 45px;
+    font-size: 35px;
+    margin: 30px;
   }
+
+  .landing-page-header h3{
+    font-size: 20px;
+  }
+
+  .connectWalletBtn{
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
   .hero-img{
-    width: 500px;
+    margin: 30px;
+  }
+
+  .services h2{
+    font-size: 30px;
+  }
+
+  .services-cards h3{
+    font-size: 20px;
+  }
+
+  .services-cards p{
+    margin: 10px 50px;
+    font-size: 14px;
   }
 
 }
@@ -138,17 +167,19 @@ img{
 @media screen and (min-width:768px) {
   .hero-section{
     flex-direction: row;
-    height: 70vh;
   }
+
+  .landing-page-header h3{
+    font-size: 25px;
+    padding: 5px 20px;
+  }
+
   .hero-text{
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
     text-align: start;
-    padding-left: 50px;
-    margin-right: 90px;
     width: 700px;
   }
 
@@ -164,84 +195,31 @@ img{
   .services-cards-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    gap: 20px;
   }
 
   .services-cards{
     border: 1px solid white;
     padding: 10px;
     border-radius: 10px;
-    
+  }
+
+  .services-cards p{
+    margin: 0;
   }
 }
 
 
 @media screen and (min-width:1168px) {
   .hero-section h1{
-    font-size: 50px;
+    font-size: 60px;
+  }
+  .services{
+    padding: 10px 90px;
+  }
+  .services-cards-container{
+    gap: 70px;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .main-container{
-  width: 100%;
-  padding: 2.5rem;
-  display: flex;
-  box-sizing: border-box;
-}
-
-.primary-txt{
-  font-size: 2.5rem;
-  color: var(--lightPrimaryColor);
-}
-
-.secondary-txt{
-  font-size: 2rem;
-  color: var(--secondaryColor);
-}
-
-.nav-link-btn{
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-}
-
-
-.primary-btn{
-  min-width: 100px;
-  background-color: var(--lightPrimaryColor);
-  color: white;
-  padding: 1rem 2rem;
-  border: none;
-  box-shadow: 4px 0px 20px rgba(0, 0, 0, 0.15);
-  border-radius: 15px 5px;
-  cursor: pointer;
-}
-
-.two-div-flex{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-right: 3rem;
-}
-
-.wallet-addr-txt{
-  font-size: 1.5rem;
-  color: var(--lightPrimaryColor);
-
-} */

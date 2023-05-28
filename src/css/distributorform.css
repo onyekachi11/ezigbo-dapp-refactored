@@ -3,27 +3,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
-  
-  /* width: 100vw; */
+  /* border: 1px solid black; */
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 .form {
-  
-  /* height: auto; */
   width: 400px;
-  /* background-image: linear-gradient(
-    to bottom right,
-    rgba(255, 255, 255, 0.3) 0%,
-    rgba(255, 255, 255, 0.1) 100%
-  ); */
   background-color: #F7FAFF;
-  /* position: absolute; */
-  /* transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%; */
   border-radius: 10px;
   backdrop-filter: blur(6px);
-
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   box-shadow: rgba(255, 255, 255, 0.5) -20px -20px 45px inset,
@@ -32,9 +20,9 @@
   font-size: large;
   font-weight: 900;
 }
+
 .form * {
   font-family: "Poppins", sans-serif;
-
   letter-spacing: 0.5px;
   outline: none;
   border: none;
@@ -54,18 +42,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* border: 1px solid black; */
   padding: 15px;
-  /* font-size: 90px; */
 }
 .lable {
   display: block;
   font-weight: 500;
-  /* font-size: 2.5rem; */
   margin: 1rem 0px;
   color: #42427d;
   opacity: 0.9;
-  /* color: brown; */
 }
 .input {
   display: block;
@@ -75,7 +59,6 @@
    border: 0.75px solid #000000;
   border-radius: 3px;
   padding: 0 10px;
-  /* margin-top: 9px; */
   font-size: 14px;
   font-weight: 300;
 }
@@ -98,6 +81,4 @@
   border-radius: 5px;
   cursor: pointer;
   margin: 0px auto;
-  /* margin-top: 3rem; */
-
 }
